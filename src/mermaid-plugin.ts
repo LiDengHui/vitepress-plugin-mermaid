@@ -1,4 +1,4 @@
-import { Plugin } from "vite";
+import { Plugin } from "vitepress";
 import { ExternalDiagramDefinition, MermaidConfig } from "mermaid";
 
 // export interface MermaidConfig {

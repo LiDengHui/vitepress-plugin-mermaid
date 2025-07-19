@@ -24,7 +24,7 @@ export default withMermaid({
     // your existing vitepress config...
     // optionally, you can pass MermaidConfig
     mermaid: {
-      // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+      // refer https://mermaid.ts.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
     },
     // optionally set additional config for plugin itself with MermaidPluginConfig
     mermaidPlugin: {

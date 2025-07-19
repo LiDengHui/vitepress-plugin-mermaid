@@ -1,20 +1,18 @@
-# vitepress-plugin-mermaid
+# vitepress-plugin-mermaid2
 
 Add mermaid support for Vitepress.
 It detects any dark theme that are set in body as long as it has dark in the name
 
-See the [docs 📕](https://emersonbottero.github.io/vitepress-plugin-mermaid/)  
-and a [complex example 😎](https://emersonbottero.github.io/vitepress-plugin-mermaid/guide/more-examples.html#render)
 
 ## Install
 
 npm
 ```bash
-npm i vitepress-plugin-mermaid mermaid -D
+npm i vitepress-plugin-mermaid2 mermaid -D
 ```
 pnpm
 ```bash
-pnpm install --shamefully-hoist 
+pnpm install vitepress-plugin-mermaid2 mermaid -D 
 ```
 
 ## Setup it up
@@ -23,7 +21,7 @@ Add wrapper
 
 ```js
 // .vitepress/config.js
-import { withMermaid } from "vitepress-plugin-mermaid";
+import { withMermaid } from "vitepress-plugin-mermaid2";
 
 export default withMermaid({
   // your existing vitepress config...

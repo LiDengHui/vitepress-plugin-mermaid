@@ -1,10 +1,10 @@
 import { type UserConfig } from "vitepress";
-import { MermaidMarkdown } from "./mermaid-markdown";
-import { MermaidPlugin, MermaidPluginConfig } from "./mermaid-plugin";
+import { MermaidMarkdown } from "./mermaid-markdown.ts";
+import { MermaidPlugin, MermaidPluginConfig } from "./mermaid-plugin.ts";
 import { MermaidConfig } from "mermaid";
 
-export { MermaidMarkdown } from "./mermaid-markdown";
-export { MermaidPlugin } from "./mermaid-plugin";
+export { MermaidMarkdown } from "./mermaid-markdown.ts";
+export { MermaidPlugin } from "./mermaid-plugin.ts";
 
 export { UserConfig };
 
